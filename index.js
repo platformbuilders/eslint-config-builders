@@ -10,7 +10,7 @@ module.exports = {
   ],
   parserOptions: {
     project: 'tsconfig.json',
-    tsconfigRootDir: __dirname,
+    tsconfigRootDir: '.',
     ecmaVersion: 2020,
     sourceType: 'module',
     useJSXTextNode: true,
