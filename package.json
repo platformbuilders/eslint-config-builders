@@ -1,11 +1,13 @@
 {
-  "name": "eslint-config-builders",
+  "name": "@platformbuilders/eslint-config-builders",
   "version": "0.1.0",
   "description": "Builders eslint config",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "files": [
+    "package.json",
+    "index.js",
+    "README.md"
+  ],
   "dependencies": {
     "@babel/core": "^7.20.12",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
