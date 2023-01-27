@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-builders",
+  "version": "0.1.0",
+  "description": "Builders eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.20.12",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-babel-module": "^5.3.1",
+    "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.0",
+    "eslint-plugin-sonarjs": "^0.18.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8",
+    "prettier": ">=2"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "prettier": "^2.8.2"
+  }
+}
