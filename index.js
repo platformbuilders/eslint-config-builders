@@ -44,6 +44,7 @@ module.exports = {
     'jest.config.js',
     'index.js',
     'ignoreWarnings.js',
+    'dist',
   ],
   rules: {
     // @TODO: Remover essa regra assim que for feito o fix na lib do CheckBox
