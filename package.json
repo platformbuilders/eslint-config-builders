@@ -1,6 +1,6 @@
 {
   "name": "@platformbuilders/eslint-config-builders",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Builders eslint config",
   "main": "index.js",
   "files": [
