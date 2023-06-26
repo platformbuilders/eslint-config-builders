@@ -4,6 +4,8 @@
   "description": "Builders eslint config",
   "main": "index.js",
   "files": [
+    "config/*.js",
+    "react/*.js",
     "package.json",
     "index.js",
     "README.md"
