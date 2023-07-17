@@ -17,6 +17,9 @@
     "rules.js",
     "settings.js"
   ],
+  "scripts": {
+    "build": "exit 0"
+  },
   "dependencies": {
     "@babel/core": "^7.22.9",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
