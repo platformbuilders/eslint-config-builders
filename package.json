@@ -1,31 +1,38 @@
 {
   "name": "@platformbuilders/eslint-config-builders",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "Builders eslint config",
   "main": "index.js",
+  "type": "commonjs",
   "files": [
-    "config/*.js",
-    "react/*.js",
-    "package.json",
+    "extendsPlugins.js",
+    "globals.js",
+    "ignorePatterns.js",
     "index.js",
-    "README.md"
+    "package.json",
+    "parserOptions.js",
+    "plugins.js",
+    "react.js",
+    "reactRules.js",
+    "rules.js",
+    "settings.js"
   ],
   "dependencies": {
-    "@babel/core": "^7.20.12",
+    "@babel/core": "^7.22.9",
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.48.1",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-import-resolver-babel-module": "^5.3.1",
+    "eslint-import-resolver-babel-module": "^5.3.2",
     "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
-    "eslint-import-resolver-typescript": "^3.5.3",
-    "eslint-plugin-import": "^2.27.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-json": "^3.1.0",
-    "eslint-plugin-jsx-a11y": "^6.7.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.32.0",
-    "eslint-plugin-sonarjs": "^0.18.0"
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-sonarjs": "^0.19.0"
   },
   "peerDependencies": {
     "eslint": ">=8",
@@ -33,7 +40,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.31.0",
+    "eslint": "^8.45.0",
     "prettier": "^2.8.2"
   }
 }
