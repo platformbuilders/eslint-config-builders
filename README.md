@@ -10,6 +10,18 @@ yarn add --dev eslint prettier @platformbuilders/eslint-config-builders
 
 ## Usage
 
+### With React
+
+Add to your eslint config (`.eslintrc`, `.eslintrc.js`, or `eslintConfig` field in `package.json`):
+
+```json
+{
+  "extends": "@platformbuilders/eslint-config-builders/react"
+}
+```
+
+### Default
+
 Add to your eslint config (`.eslintrc`, `.eslintrc.js`, or `eslintConfig` field in `package.json`):
 
 ```json
