@@ -20,6 +20,9 @@
   "scripts": {
     "build": "exit 0"
   },
+  "resolutions": {
+    "json5": "^2.2.0"
+  },
   "dependencies": {
     "@babel/core": "^7.23.0",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
